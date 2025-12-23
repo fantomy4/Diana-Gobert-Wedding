@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="description" content="Contact Diana Gobert with questions about their wedding celebration.">
+    <meta name="keywords" content="contact, wedding questions, Diana Gobert, get in touch">
+    <link rel="icon" type="image/png" href="/images/icon.png" sizes="32x32">
+    <link rel="stylesheet" href="/styles/contact.css">
+    <title>Contact Us — Diana Gobert</title>
+</head>
+<body>
+    <!-- ==================== HEADER & NAVIGATION ==================== -->
+    <header>
+        <a href="index.html" class="logo">
+            <div class="logo-name">Diana Gobert</div>
+            <div class="logo-tagline">Wedding & Event Planner</div>
+        </a>
+        <nav id="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="details.html">Wedding Packages</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle" id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+     <!-- ==================== PAGE HERO ==================== -->
+    <section class="page-hero">
+        <h1>Get In Touch</h1>
+        <p class="hero-subtitle">
+            Have questions? We'd love to hear from you
+        </p>
+    </section>
+
+    <!-- ==================== INTRO SECTION ==================== -->
+    <section class="contact-intro-section">
+        <div class="intro-container">
+            <div class="intro-image">
+                <img src="/images/contact-us-wedding.webp" alt="Wedding couple walking hand in hand in a scenic Budapest location">
+            </div>
+            <div class="intro-content">
+                <h2>Planning Your Budapest Wedding?</h2>
+                <p>
+                    You have decided to celebrate your wedding in Budapest, Hungary and you are 
+                    looking for a local wedding planner?
+                </p>
+                <p>
+                    It will be our pleasure to accompany you and to help you to plan a wedding 
+                    that reflects your personalities!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CONTACT SECTION ==================== -->
+    <section class="contact-section">
+        <div class="contact-grid">
+            <!-- Contact Information -->
+            <div class="contact-info">
+                <div class="contact-intro">
+                    <h2>Let's Connect</h2>
+                    <p>
+                        If you have any questions about the wedding, need special accommodations, 
+                        or just want to send us a note, please don't hesitate to reach out.
+                    </p>
+                    <p>
+                        We're here to help make your experience as wonderful as possible.
+                    </p>
+                </div>
+
+                <div class="contact-methods">
+                    <div class="contact-method">
+                        <h3>Email</h3>
+                        <p><a href="mailto:hello@emmaandjames.com">dianahanchakgobert@gmail.com</a></p>
+                    </div>
+
+                    <div class="contact-method">
+                        <h3>Phone</h3>
+                        <p><a href="tel:+36705570333">+36 70 557 0333</a></p>
+                        <p style="font-size: 0.95rem; margin-top: 0.5rem;">Available weekdays, 9am - 6pm</p>
+                    </div>
+
+                    <div class="contact-method">
+                        <h3>Address</h3>
+                        <p>Budapest, Kossuth Lajos ut 14-16, 1st fooor,1053 H</p>
+                    </div>
+
+                    <div class="contact-method">
+                        <iframe
+                        src="https://www.google.com/maps?q=Budapest,+Kossuth+Lajos+ut+14-16&hl=en&z=16&output=embed"
+                        width="600"
+                        height="450"
+                        style="border:0;"
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form-wrapper">
+                <h2 class="form-title">Inquiry Form</h2>
+                
+                <form action="https://formsubmit.co/" method="POST" class="contact-form" id="contactForm">
+                    <!-- FormSubmit settings -->
+                    <input type="hidden" name="_subject" value="New Wedding Inquiry">
+                    <input type="hidden" name="_template" value="table">
+                    <input type="hidden" name="_captcha" value="false">
+
+                    <!-- Anti-spam -->
+                    <input type="text" name="_honey" style="display:none">
+                    
+                    <div class="form-group">
+                        <label for="name">Your Name <span class="required">*</span></label>
+                        <input type="text" id="name" name="name" required placeholder="Full name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address <span class="required">*</span></label>
+                        <input type="email" id="email" name="email" required placeholder="your@email.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+36 20 123 4567">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="eventDate">Preferred Event Date</label>
+                        <input type="date" id="eventDate" name="eventDate">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="guestCount">Estimated Guest Count</label>
+                        <input type="number" id="guestCount" name="guestCount" min="1" placeholder="e.g., 150">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="budget">Estimated Budget Range</label>
+                        <select id="budget" name="budget">
+                            <option value="">Prefer not to say</option>
+                            <option value="under-50k">Under €50,000</option>
+                            <option value="50k-100k">€50,000 - €100,000</option>
+                            <option value="100k-200k">€100,000 - €200,000</option>
+                            <option value="200k-plus">€200,000+</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Tell Us About Your Vision <span class="required">*</span></label>
+                        <textarea id="message" name="message" required placeholder="Share your ideas, preferences, cultural considerations, or any questions you have..."></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Submit Inquiry</button>
+
+                    <div class="success-message" id="successMessage">
+                        <p>Thank you for your inquiry! We'll get back to you within 24 hours to discuss your special celebration.</p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FAQ SECTION ==================== -->
+    <section class="faq-section">
+        <div class="faq-container">
+            <h2 class="faq-title">Frequently Asked Questions</h2>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>What should I wear?</h3>
+                    <span class="faq-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        <p>
+                            We've requested formal attire for our celebration. For ladies, the ceremony 
+                            will be held on grass, so we recommend wedges or block heels. Gentlemen, 
+                            suits or tuxedos are perfect.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Where should I stay?</h3>
+                    <span class="faq-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        <p>
+                            We've reserved room blocks at The Charleston Harbor Hotel and The Historic 
+                            District Inn. Booking information and special rates are available on our 
+                            accommodations page. Both hotels are approximately 15 minutes from the venue.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Is there transportation provided?</h3>
+                    <span class="faq-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        <p>
+                            Yes! Shuttle service will be provided from the recommended hotels to the venue 
+                            and back. The shuttles will depart at 3:15 PM and return at 12:30 AM. Valet 
+                            parking is also available at the venue.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Can I bring my children?</h3>
+                    <span class="faq-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        <p>
+                            While we adore your little ones, we've chosen to make this an adults-only 
+                            celebration. We hope this gives all our guests a chance to relax and enjoy 
+                            the evening. Thank you for understanding.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>What if I have dietary restrictions?</h3>
+                    <span class="faq-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        <p>
+                            Please let us know about any dietary restrictions or food allergies when you 
+                            RSVP. Our catering team is experienced in accommodating various dietary needs 
+                            including vegetarian, vegan, gluten-free, and other requirements.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Will the ceremony be indoors or outdoors?</h3>
+                    <span class="faq-icon">+</span>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-content">
+                        <p>
+                            The ceremony will be held outdoors in the garden pavilion. We have a beautiful 
+                            indoor backup plan in case of inclement weather. The reception will take place 
+                            in the estate's grand hall.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer>
+        <div class="footer-names">Diana Gobert</div>
+        <div class="footer-date">Wedding Planner · Budapest, Hungary</div>
+    </footer>
+
+    <script src="/scripts/contact.js"></script>
+</body>
+</html>
